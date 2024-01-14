@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+}
+
+nav {
+
+    height: 85px;
+    display: flex;
+    background-color: #f9fafa;
+
+}
+
+div label {
+    color: RGBA(188, 76, 42, 1);
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 4px;
+}
+
+input {
+    width: 130px;
+    box-sizing: border-box;
+    margin-left: 8px;
+    font-size: 16px;
+    background-color: #f9fafa;
+    outline: none;
+    border: 0px;
+    font-family: Avenir;
+    color: RGBA(188, 76, 42, 1);
+}
+
+::placeholder {
+    color: RGBA(188, 76, 42, 1);
+
+}
+
+.seqcia1 {
+    display: inline-flex;
+    color: black;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 42px;
+    padding-bottom: 10px;
+    margin-bottom: 42px;
+    border-bottom: 1px solid black;
+    border-color: RGBA(188, 76, 42, 1);
+}
+
+.seqcia1:hover {
+    margin-top: 41px;
+    border-bottom: 2px solid black;
+    border-color: RGBA(188, 76, 42, 1);
+}
+
+.seqcia2 {
+    width: calc(100%/3);
+    font-family: Didot eText W01 Italic;
+    font-size: 40px;
+    color: RGBA(188, 76, 42, 1);
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-decoration: 0;
+
+}
+
+.seqcia3 {
+    display: flex;
+    width: calc(100%/3);
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-left: 10px;
+    margin-right: none;
+    justify-content: space-between;
+
+
+}
+
+.social {
+    margin-left: 70px;
+    display: inline-block;
+    width: calc(100%3);
+
+
+}
+
+.author {
+    display: flex;
+    text-align: center;
+    color: RGBA(188, 76, 42, 1);
+    cursor: pointer;
+
+}
+
+.avatar {
+    color: RGBA(188, 76, 42, 1);
+    font-size: 22px;
+
+
+}
+
+.login {
+    font-family: Avenir;
+    font-size: 16px;
+    padding-left: 8px;
+    text-decoration: none;
+    color: RGBA(188, 76, 42, 1);
+
+}
+
+.cart {
+    font-family: Avenir;
+    font-size: 16px;
+    text-decoration: none;
+    color: RGBA(188, 76, 42, 1);
+    margin-right: 60px;
+
+}
+
+div a i {
+    padding: 5px;
+    color: black;
+
+}
+
+div a i:hover {
+    color: RGBA(188, 76, 42, 1);
+}
+
+menu,
+ul {
+    display: block;
+    text-align: center;
+    background-color: #f9fafa;
+    margin: 0;
+    padding: 0;
+    height: 85px;
+}
+
+li {
+    display: inline-block;
+    cursor: pointer;
+    width: 139px;
+    height: 50px;
+    margin-top: 42px;
+    font-family: Avenir;
+}
+
+li:hover {
+    color: RGBA(188, 76, 42, 1);
+}
+
+.xazi {
+    width: calc(100%/3);
+    display: inline-block;
+
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url(assets/Avenir\ LT\ 35\ Light\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: "poppinis";
+    src: url(assets/Poppins-SemiBold.ttf);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: poppinis;
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+}
+
+.centered2 {
+    width: 239px;
+    height: 37px;
+    border: 1px solid white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: poppinis;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Avenir;
+    text-align: center;
+    padding-top: 22px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.centered2:hover {
+    background-color: white;
+    color: RGBA(188, 76, 42, 1);
+    cursor: pointer;
+}
